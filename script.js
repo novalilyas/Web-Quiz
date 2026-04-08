@@ -70,6 +70,8 @@ let state = {
 
 const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 
+console.log("update dari branch");
+
 function playSound(type) {
   if (!state.soundEnabled) return;
   try {
